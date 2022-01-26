@@ -2,7 +2,7 @@
 # Date: January 20, 21, 24, 2022
 # Decription: Solves matrices of different lengths using row reduced echelon form
 # Purpose: Checking matrices homework 
-# Notes: Currently works only for squares (n * n) and point solutions, doesn't work for fractions, not the most efficient (eliminated some cases through 1 and 0 test though), make a nicer conclusion thing, a little weird sometimes with some 0s (eg. 0 8 9 0, 0 0 3 7, 0 2 4 5), add error handling
+# Notes: Currently works only for numRows = numVars and point solutions, doesn't work for fractions, not the most efficient (eliminated some cases through 1 and 0 test though), make a nicer conclusion thing, a little weird sometimes with some 0s (eg. 0 8 9 0, 0 0 3 7, 0 2 4 5), add error handling
 
 # Improvement ideas:
 ## -if a line only has one variable, find that variable immediately? would that still be rref though? maybe switch it with another, if possible.
