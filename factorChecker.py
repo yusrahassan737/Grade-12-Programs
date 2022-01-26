@@ -2,8 +2,9 @@
 # Date: January 24, 2022
 # Decription: Checks factors of a number
 # Purpose: Reduce matrixSolver error to lowest terms
-# Notes: 
+# Notes: IN PROGRESS!
 # only for ints
+
 def isPrime(num):
     lst = []
     for i in str(num):
